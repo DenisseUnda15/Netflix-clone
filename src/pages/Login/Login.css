@@ -79,3 +79,24 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+.login-spinner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.login-spinner img{
+    width: 60px;
+}
+
+@media(max-width: 500px){
+    .login{
+        padding: 15px 5%;
+    }
+        .login-form{
+            padding: 20px;
+            margin-top: 30px;
+        }
+}
